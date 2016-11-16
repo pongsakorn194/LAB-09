@@ -39,6 +39,7 @@ GDI+ (Graphics Device Interface Plus) เป็นกราฟฟิกส์ไ
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-2.png">
 </p> 
 
+
 * ให้เพิ่มบรรทัดต่อไปนี้ลงในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
  * สร้าง Object ของกราฟิกส์ โดยคำสั่ง  ```Graphics g = e.Graphics;``` ซึ่ง Object ชื่อ e ถูกส่งผ่านมาทาง argument ของฟังก์ชัน
  * เพิ่มออบเจกต์ของปากกา สีน้ำเงินขนาด 2 พิกเซล ด้วยคำสั่ง ```Pen = new Pen(Color.Blue, 2);```
@@ -50,6 +51,8 @@ GDI+ (Graphics Device Interface Plus) เป็นกราฟฟิกส์ไ
 </p> 
  
  * ทดลอง Build และ Run โปรแกรม
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo1.png?raw=true)
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo1.1.png?raw=true)
  * บันทึกผลที่ได้
 
 ###2.5.	การทดลองย่อย 2  การใช้สี
@@ -59,33 +62,41 @@ GDI+ (Graphics Device Interface Plus) เป็นกราฟฟิกส์ไ
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-4.png">
 </p> 
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo2.png?raw=true)
+
  
 ####2.5.2.	โดยการใช้ methode FromName 
 * เพิ่ม Code ต่อไปนี้ลงในฟังก์ชัน private void Form1_Paint(object sender, PaintEventArgs e) แล้วทดลอง Run โปรแกรม
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-5.png">
 </p> 
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo3.png?raw=true)
+
 
 ####2.5.3. การทดลองย่อย 3  -- การใช้ปากกา
 * การทดลองเปลี่ยนขนาดและสีของปากกา โดยใช้ properties Width และ Color
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-6.png">
 </p> 
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo4.png?raw=true)
+
 * เปลี่ยนชนิดของปากกาเป็นเส้นประ
 <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-7.png">
 </p> 
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo5.png?raw=true)
 
 * ใช้ Pen ร่วมกับ Brush  
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-8.png">
 </p> 
-
+![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo6.png?raw=true)
 * ใช้ Pen ร่วมกับ HatchBrush  เพื่อสร้างลายเส้นแบบต่างๆ
  <p align="center">
 <img src="https://github.com/Desktop-Programming-Lab-2559/LAB-09/blob/master/imgs/lab9-9.png">
 </p> 
- 
+ ![](https://github.com/pongsakorn194/LAB-09/blob/master/imgs/photo7.png?raw=true)
+
 
 ##คำถาม/แบบฝึกหัดท้ายการทดลอง
 * ให้เปลี่ยน Color และ HatchStyle เป็นแบบต่างๆ เพื่อดูความเปลี่ยนแปลง 
